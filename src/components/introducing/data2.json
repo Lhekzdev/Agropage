@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1728555060/partner-01-1.webp_yxfwnj.png",
+      "cloudName": "dbrqcasoo"
+    },
+    {
+      "id": 2,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1728555060/partner-02-1.webp_eqk478.png",
+      "cloudName": "dbrqcasoo"
+    },
+    {
+      "id": 3,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1728555061/partner-03-1.webp_k9u1lp.png",
+      "cloudName": "dbrqcasoo"
+    },
+    {
+      "id": 4,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1728555061/partner-04-1.webp_yozbod.png",
+      "cloudName": "dbrqcasoo"
+    },
+    {
+      "id": 5,
+      "publicId": "https://res.cloudinary.com/drqaon7o8/image/upload/v1728555062/partner-05-1.webp_on1cxy.png",
+      "cloudName": "dbrqcasoo"
+    }
+  ]
+}
