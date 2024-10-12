@@ -29,7 +29,7 @@ export default {
         poppines: "Poppins", 
       },
       lineHeight: {
-        'custom': ['52.27px',  '22.72px']
+        'custom': ['52.27px',  '22.72px', ]
       
       },
       fontFamily: {
