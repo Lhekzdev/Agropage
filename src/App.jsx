@@ -1,18 +1,16 @@
-import React from 'react'
-import Ourservices from './components/ourservices/Ourservices.jsx'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
+import AboutUs from '../components/AboutUs'
 
 function App() {
-  
+  const [count, setCount] = useState(0)
 
   return (
-   
-      
-      <Ourservices/>
- 
-
-
-   
+    <>
+      <AboutUs/>
+    </>
   )
 }
 
