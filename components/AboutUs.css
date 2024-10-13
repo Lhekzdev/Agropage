@@ -42,6 +42,8 @@
 
 .subheader {
   color: rgba(67, 160, 71, 1);
+  font-size: 15px;
+
 }
 
 .learn-more-btn:hover {
@@ -78,6 +80,7 @@
     text-align: justify;
     max-width: 100%; 
   }
+  
 
   .learn-more-btn {
     margin-left: auto;
