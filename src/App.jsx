@@ -10,7 +10,7 @@ import './App.css'
 
 import Nav from './components/nav/Nav.jsx'
 
-import React from "react";
+
 import Ourservices from "./components/ourservices/Ourservices.jsx";
 
 
