@@ -7,18 +7,28 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "db": "json-server --watch ./data/db.json --port 900"
   },
   "dependencies": {
+<<<<<<< HEAD
     "cloudinary": "^2.5.1",
+=======
+    "axios": "^1.7.7",
+>>>>>>> f19bb36cae2de4db522aea93d700e277ba7202bd
     "cloudinary-react": "^1.8.1",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "react-router-dom": "^6.26.2"
 =======
     "sass": "^1.79.4"
 >>>>>>> 00f74de83b4904ed7730761270651193d9eeaf90
+=======
+    "react-router-dom": "^6.27.0"
+>>>>>>> f19bb36cae2de4db522aea93d700e277ba7202bd
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
