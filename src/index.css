@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 * {
@@ -7,3 +8,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
+=======
+@tailwind utilities;
+>>>>>>> 7c9b96dbdd5bc6b49b25f79ea6c9fcd264a1cdf4
