@@ -3,20 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
-<<<<<<< HEAD
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-     <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StrictMode>,
-)
-=======
 import { RecoilRoot } from 'recoil'
 
-
 createRoot(document.getElementById('root')).render(
+
+
+
+
   <StrictMode>
     <RecoilRoot>
       <BrowserRouter>
@@ -24,8 +17,8 @@ createRoot(document.getElementById('root')).render(
       </BrowserRouter>
     </RecoilRoot>
   </StrictMode>,
-)
 
+)
 
 // import React from 'react';
 // import { useFormik } from 'formik';
@@ -215,4 +208,3 @@ createRoot(document.getElementById('root')).render(
 //     </div>
 //   );
 // }
->>>>>>> 7c9b96dbdd5bc6b49b25f79ea6c9fcd264a1cdf4
