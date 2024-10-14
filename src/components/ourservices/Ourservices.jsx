@@ -21,7 +21,7 @@ const Ourservice = () => {
   }, []);
 
   return (
-    <div className="font-georgia mt-2">
+    <div className="font-georgia mt-2 ">
       <div className="ml-4">
         <h2 className="text-left text-[46px] leading-custom font-bold text-customBlack mb-6 mt-3 md:text-center">
           Our Services
@@ -31,16 +31,16 @@ const Ourservice = () => {
         </h2>
       </div>
 
-      <div className="justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className=" gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full ">
         {articles.map((article) => {
           const isExpanded = expandedArticleIds.includes(article.id);
 
           return (
             <div
               key={article.id}
-              className="bg-white items-center shadow rounded w-full max-w-[420px] md:max-w-[330px] lg:max-w-full"
+              className=" bg-white items-center shadow rounded md:max-w-full lg:max-w-screen-lg overflow-hidden"
             >
-              <div className="image-container">
+              <div className="image-container ">
                 <img
                   src={`https://res.cloudinary.com/dzyvwxh7n/image/upload/${article.imagePublicId}`}
                   alt={article.title}
