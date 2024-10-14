@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cloudinary": "^2.5.1",
     "cloudinary-react": "^1.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.26.2"
+=======
+    "sass": "^1.79.4"
+>>>>>>> 00f74de83b4904ed7730761270651193d9eeaf90
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
