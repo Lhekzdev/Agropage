@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Image } from 'cloudinary-react';
 import { useParams } from 'react-router-dom'; // Import useParams
-import semiUp from '../../../assets/semiUp.svg';
+import semiUp from '../../assets/semiUp.svg';
 import axios from 'axios';
 
 const Testimonial = () => {

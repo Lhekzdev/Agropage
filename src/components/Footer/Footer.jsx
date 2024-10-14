@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../../../assets/logo.svg'
-import facebookIcon from '../../../assets/facebookIcon.svg'
-import twitterIcon from '../../../assets/twitterIcon.svg'
-import world from '../../../assets/world.svg'
-import tele from '../../../assets/tele.svg'
-import mail from '../../../assets/mail.svg'
-import location from '../../../assets/location.svg'
+import logo from '../../assets/logo.svg'
+import facebookIcon from '../../assets/facebookIcon.svg'
+import twitterIcon from '../../assets/twitterIcon.svg'
+import world from '../../assets/world.svg'
+import tele from '../../assets/tele.svg'
+import mail from '../../assets/mail.svg'
+import location from '../../assets/location.svg'
 
 const Footer = () => {
   return (

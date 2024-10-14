@@ -21,7 +21,7 @@ const Ourservice = () => {
   }, []);
 
   return (
-    <div className="font-georgia mt-2">
+    <div className="font-georgia mt-2 mb-14">
       <div className="ml-4">
         <h2 className="text-left text-[46px] leading-custom font-bold text-customBlack mb-6 mt-3 md:text-center">
           Our Services
