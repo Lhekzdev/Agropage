@@ -9,8 +9,10 @@ import location from '../../assets/location.svg'
 
 const Footer = () => {
   return (
-    <div className='footer flex flex-wrap lg:flex-nowrap w-full min-h-[380px] px-[26px] lg:pl-[84px] lg:pr-[82px] pt-[50px] lg:pb-[108px] bg-[#163518] gap-[20px] lg:gap-[90.67px] overflow-hidden'>
-      
+    <div className='footer  text-left flex flex-wrap w-full lg:px-[50px] min-h-[380px] px-[26px]   pt-[50px] lg:pb-[108px] bg-[#163518] gap-[20px] lg:flex-wrap md:overflow-hidden lg:gap-[45.67px] lg:overflow-hidden'>
+
+
+
       {/* Logo and About Section */}
       <div className='flex flex-col w-full lg:w-auto'>
         <div className='logoContainer flex items-center gap-[12px]'>
@@ -30,11 +32,11 @@ const Footer = () => {
       </div>
       
       {/* Navigation Links Section */}
-      <div className='navigations flex flex-row gap-[20px] lg:gap-[111.67px] w-full lg:w-auto'>
+      <div className='navigations flex flex-row   w-full lg:w-auto lg:gap-[50px]'>
         {/* Explore Links */}
         <div className='w-full lg:w-auto'>
           <h4 className='text-[20px] lg:text-[22px] font-bold text-[#FEFEFE] font-georgia'>Explore</h4>
-          <ul className='pl-[5px] text-[#FEFEFE] text-[16px] lg:text-[18px] font-normal'>
+          <ul className=' text-[#FEFEFE] text-[16px] lg:text-[18px] font-normal'>
             <li className='mt-[15px] font-georgia'>Home</li>
             <li className='mt-[15px] font-georgia'>About Us</li>
             <li className='mt-[15px] font-georgia'>Services</li>
@@ -55,7 +57,7 @@ const Footer = () => {
       </div>
       
       {/* Contact Section */}
-      <div className='contact w-full lg:w-auto'>
+      <div className='contact w-full md:mt-10 lg:w-auto lg:mt-0 '>
         <h4 className='text-[20px] lg:text-[22px] font-bold text-[#FEFEFE] font-georgia'>Contact</h4>
         <div className='mt-[15px] flex gap-[10px] lg:gap-[15px] items-center text-[#FEFEFE] text-[16px] lg:text-[18px] font-normal'>
           <img src={tele} alt="telephone" />

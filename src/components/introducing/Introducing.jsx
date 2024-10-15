@@ -7,7 +7,7 @@ import { images } from "./data2.json";
 const Introducing = () => {
   return (
     <div id="Introducing">
-      <div className="section1 relative w-full h-[347px] flex items-center justify-center bg-cover bg-center mt-[63px]">
+      <div className="section1 font-georgia relative w-full h-[347px] flex items-center justify-center bg-cover bg-center mt-[63px]">
         {/* Content */}
         <div className="relative text-center text-white px-4">
           <div className="flex justify-center mb-4">
@@ -28,14 +28,18 @@ const Introducing = () => {
       </div>
 
       {/* part two */}
-      <div className="grid grid-cols-2 gap-8 md:grid-cols-2 md:gap-[30px] md:ml-[100px] lg:grid-cols-5 h-[175px] mt-[63px] mb-3 items-center justify-center">
+      <div className="grid font-georgia  grid-cols-2 gap-8 mb-40 md:grid-cols-2 md:mb-40 md:gap-[30px] md:ml-[100px] lg:grid-cols-5 h-[175px] mt-[63px] lg:mb-5 items-center justify-center">
         {images.map((images) => (
           <div key={images.id}>
             <Image
+            
               cloudName={images.cloudName}
               publicId={images.publicId}
               loading="lazy"
-              className="w-[190px] h-[70px]"
+              className={`w-[190px] h-[70px] ${
+                images.id === 5 ? 'grid ml-[150px] col-span-2 mx-auto md:ml-[180px] lg:ml-0' : ''
+               
+              }`}
             />
           </div>
         ))}

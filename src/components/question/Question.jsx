@@ -38,7 +38,7 @@ export default function Question() {
   });
 
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center p-4">
+    <div className=" bg-white flex items-center justify-center p-4 font-georgia">
       <div
         className="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center space-y-8 md:space-y-0 md:space-x-8"
         style={{ width: '100%', maxWidth: '1198px' }} // Adjust width for mobile
@@ -169,7 +169,7 @@ export default function Question() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-green-700 text-white py-2 rounded-lg font-semibold flex justify-center items-center"
+              className="w-full bg-customDarkgreen hover:bg-customGreen text-white py-2 rounded-lg font-semibold flex justify-center items-center"
             >
               Send Message
               <img 

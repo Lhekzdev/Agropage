@@ -21,7 +21,7 @@ const Ourservice = () => {
   }, []);
 
   return (
-    <div className="font-georgia mt-2 mb-14">
+    <div className="font-georgia  mt-2 mb-14">
       <div className="ml-4">
         <h2 className="text-left text-[46px] leading-custom font-bold text-customBlack mb-6 mt-3 md:text-center">
           Our Services
@@ -31,14 +31,14 @@ const Ourservice = () => {
         </h2>
       </div>
 
-      <div className="justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="justify-center  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {articles.map((article) => {
           const isExpanded = expandedArticleIds.includes(article.id);
 
           return (
             <div
               key={article.id}
-              className="bg-white items-center shadow rounded w-full max-w-[420px] md:max-w-[330px] lg:max-w-full"
+              className="bg-white items-center shadow rounded  max-w-full "
             >
               <div className="image-container">
                 <img
@@ -48,14 +48,14 @@ const Ourservice = () => {
                   loading="lazy"
                 />
               </div>
-              <h2 className="px-4 text-customGreen mb-2 mt-4 font-bold text-[18px] max-w-full text-left">
+              <h2 className="px-4 text-customGreen mb-2 mt-4 font-bold text-[18px] w-full text-left">
                 {article.title}
               </h2>
               <p className="leading-5 mt-2 px-4 text-gray-700 text-left text-xl">
                 {isExpanded ? article.content : article.preview}
               </p>
               <button
-                className=" w-[300px] mt-4 mb-2 text-white py-2 px-4 bg-customDarkgreen rounded-[18px] h-[50px] md:w-[250px] lg:max-w-[250px] text-center hover:bg-green-950"
+                className=" w-full mb-6 mt-4  text-white py-2 px-4 bg-customDarkgreen rounded-[18px] h-[50px] lg:text-center hover:bg-customGreen"
                 onClick={() => toggleReadMore(article.id)}
               >
                 {isExpanded ? 'Read Less' : 'Read More'}

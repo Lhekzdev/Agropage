@@ -25,6 +25,7 @@
   font-size: 18px;
   line-height: 1.6;
   text-align: justify;
+  text-align: left;
 }
 
 .learn-more-btn {
@@ -41,14 +42,12 @@
 }
 
 .subheader {
-  color: rgba(67, 160, 71, 1);
+  color: darkgreen;
   font-size: 15px;
 
 }
 
-.learn-more-btn:hover {
-  background-color: #b38f30;
-}
+
 
 .image-section {
   flex: 1;

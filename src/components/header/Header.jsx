@@ -16,7 +16,7 @@ const Header = () => {
               <p className='font-normal  text-white font-georgia  text-[18px] lg:text-2xl text-center py-4'>Innovative solutions for modern Agriculture</p>
              </div>
              <div className='lg:py-8'>
-              <button className='h-10 w-50 border rounded-[18px] px-2 py-1 bg-[#163518] font-normal font-georgia text-lg text-white'>Explore Our Solutions</button>
+              <button className='h-10 w-50 border rounded-[18px] px-2 py-1 bg-[#163518] hover:bg-customGreen font-normal font-georgia text-lg text-white'>Explore Our Solutions</button>
              </div>
            </div>
         </div>
