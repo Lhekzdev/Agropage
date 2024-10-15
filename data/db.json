@@ -1,0 +1,25 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "testimony": "Lorem ipsum dolor sit amet consectetur. Eget arcu pharetra lorem venenatis velit neque ullamcorper. Vel sed enim bibendum turpis sagittis curabitur. Purus euismod sem elementum mattis. Molestie id dis mi orci enim.",
+        "image": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1728423599/Group_5_2_emery8.png",
+        "name": "john smith",
+        "role": "Founder of Awesomeux Technology"
+  },
+      {
+        "id": 2,
+        "testimony": "Lorem ipsum dolor sit amet consectetur. Eget arcu pharetra lorem venenatis velit neque ullamcorper. Vel sed enim bibendum turpis sagittis curabitur. Purus euismod sem elementum mattis. Molestie id dis mi orci enim.",
+        "image": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1728423599/Group_5_1_wrs9pi.png",
+        "name": "Alvin Gap",
+        "role": "Team Lead QEP AgroTech"
+  },
+      {
+        "id": 3,
+        "testimony": "Lorem ipsum dolor sit amet consectetur. Eget arcu pharetra lorem venenatis velit neque ullamcorper. Vel sed enim bibendum turpis sagittis curabitur. Purus euismod sem elementum mattis. Molestie id dis mi orci enim.",
+        "image": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1728423599/Group_5_g1crdo.png",
+        "name": "Roland Griffin",
+        "role": "Founder AgroNig Robotics"
+  }
+]
+}
