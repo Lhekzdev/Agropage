@@ -12,14 +12,16 @@ const Introducing = () => {
         <div className="relative text-center text-white px-4">
           <div className="flex justify-center mb-4">
             {/* Play Button */}
-            <div className="w-[100px] h-[70px] bg-red-600 rounded-lg flex items-center justify-center cursor-pointer">
+            <a href="https://www.youtube.com/watch?v=obsiirkdtaY" 
+             target="_blank" 
+             rel="noopener noreferrer"><div className="w-[100px] h-[70px] bg-red-600 rounded-lg flex items-center justify-center cursor-pointer">
               <Image
                 className=""
                 loading="lazy"
                 cloudName={image.cloudName}
                 publicId={image.youtube.url}
               />
-            </div>
+            </div></a>
           </div>
           <h1 className="w-full text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold">
             Introducing Robotics and AI into the World of Farming

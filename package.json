@@ -11,17 +11,17 @@
     "db": "json-server --watch ./data/db.json --port 900"
   },
   "dependencies": {
-    "cloudinary": "^2.5.1",
     "axios": "^1.7.7",
+    "cloudinary": "^2.5.1",
     "cloudinary-react": "^1.8.1",
+    "formik": "^2.4.6",
+    "json": "^11.0.0",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.79.4",
     "react-router-dom": "^6.27.0",
-    "formik": "^2.4.6",
-    "json": "^11.0.0",
     "recoil": "^0.7.7",
+    "sass": "^1.79.4",
     "yup": "^1.4.0"
   },
   "devDependencies": {

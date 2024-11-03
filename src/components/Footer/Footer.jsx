@@ -9,9 +9,7 @@ import location from '../../assets/location.svg'
 
 const Footer = () => {
   return (
-    <div className='footer  text-left flex flex-wrap w-full lg:px-[50px] min-h-[380px] px-[26px]   pt-[50px] lg:pb-[108px] bg-[#163518] gap-[20px] lg:flex-wrap md:overflow-hidden lg:gap-[45.67px] lg:overflow-hidden'>
-
-
+    <div className='footer  text-left flex flex-wrap w-full px-[50px] min-h-[380px]    pt-[50px]  bg-[#163518] gap-[20px] lg:flex-wrap md:overflow-hidden lg:gap-[45.67px] '>
 
       {/* Logo and About Section */}
       <div id="contact" className='flex flex-col w-full lg:w-auto'>

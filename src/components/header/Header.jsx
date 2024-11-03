@@ -4,7 +4,7 @@ import {Image} from 'cloudinary-react';
 const Header = () => {
     return (
         <>
-        <div id="home" className='relative w-full h-[697px] flex items-center justify-center flex-col mb-10'>
+        <div id="home" className='relative w-full h-[680px] flex items-center justify-center flex-col '>
           <Image className='absolute w-full h-[697px]' loading='lazy' cloudName="dml48ptj8" 
           publicId= "https://res.cloudinary.com/dml48ptj8/image/upload/v1728494270/agro_idqlyo.jpg">
           </Image>
@@ -16,7 +16,11 @@ const Header = () => {
               <p className='font-normal  text-white font-georgia  text-[18px] lg:text-2xl text-center py-4'>Innovative solutions for modern Agriculture</p>
              </div>
              <div className='lg:py-8'>
-              <button className='h-10 w-50 border rounded-[18px] px-2 py-1 bg-[#163518] hover:bg-customGreen font-normal font-georgia text-lg text-white'>Explore Our Solutions</button>
+             <button 
+  className='h-10 w-50 border rounded-[18px] px-[20px] py-1 bg-[#163518] hover:bg-customGreen font-normal font-georgia text-lg text-white'
+  onClick={() => alert('Work in Progress')}>
+  Explore Our Solutions
+</button>
              </div>
            </div>
         </div>
