@@ -6,7 +6,7 @@ import Testimonial from "./components/Testimonial/Testimonial.jsx";
 import Introducing from "./components/introducing/Introducing.jsx";
 import Question from "./components/question/Question.jsx";
 
-// import "./App.css";
+
 
 import Nav from "./components/nav/Nav.jsx";
 import Header from './components/header/Header.jsx'
