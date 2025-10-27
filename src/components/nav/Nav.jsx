@@ -23,8 +23,8 @@ const Nav = () => {
           <li className=' hidden lg:flex text-center justify-between gap-10'>
           <button className='h-12 w-40 border rounded-[18px] px-2 py-2 text-white bg-[#163518] hover:bg-customGreen text-lg font-normal font-Georgia' to="/getStarted">Get started</button>
           </li>
-          <i className='relative bx bx-menu lg:hidden block text-5xl cursor-pointer' onClick={()=>setIsMenuOpen(!isMenuOpen)}></i>
-          <div className={`absolute lg:hidden z-[100000000] top-24 left-0 w-full bg-white flex flex-col items-center justify-center gap-6 text-base font-medium font-poppines transform transition-transform ${isMenuOpen ? 'opacity-100' :'opacity-0'}`}>
+          <i className='relative text-[#163518] bx bx-menu lg:hidden block text-5xl cursor-pointer' onClick={()=>setIsMenuOpen(!isMenuOpen)}></i>
+          <div className={`absolute lg:hidden z-[99999]  top-24 left-0 w-full  flex flex-col items-center justify-center gap-6 text-base font-medium font-poppines transform transition-transform ${isMenuOpen ? 'opacity-100' :'opacity-0'}`}>
           <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/">Home</Link> 
           <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/about">About Us</Link>
           <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/services">Services</Link>
