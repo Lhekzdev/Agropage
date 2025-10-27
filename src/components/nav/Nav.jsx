@@ -25,10 +25,10 @@ const Nav = () => {
           </li>
           <i className='relative text-[#163518] bx bx-menu lg:hidden block text-5xl cursor-pointer' onClick={()=>setIsMenuOpen(!isMenuOpen)}></i>
           <div className={`absolute lg:hidden z-[99999]  top-24 left-0 w-full  flex flex-col items-center justify-center gap-6 text-base font-medium font-poppines transform transition-transform ${isMenuOpen ? 'opacity-100' :'opacity-0'}`}>
-          <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/">Home</Link> 
-          <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/about">About Us</Link>
-          <Link className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/services">Services</Link>
-          <a href="#contact" className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/contact">Contact Us</a>
+          <a href="#home" onClick={() => setIsMenuOpen(false)} className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/">Home</a> 
+          <a href="#about-us" onClick={() => setIsMenuOpen(false)} className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/about">About Us</a>
+            <a href="#Services" onClick={() => setIsMenuOpen(false)} className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/services">Services</a>
+          <a href="#contact" onClick={() => setIsMenuOpen(false)} className='w-full text-[22px] font-normal font-georgia text-center p-3 hover:bg-[#163518] hover:text-white transition-all cursor-pointer' to="/contact">Contact Us</a>
           <button className='w-full text-[22px] text-white font-normal font-georgia text-center p-3  bg-[#163518] hover:text-white hover:bg-customGreen transition-all cursor-pointer' to="/getStarted">Get Started</button>
           </div>
         </ol>
